@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xai-for-stylistic-analysis"
+version = "0.1.0"
+description = "Research-oriented text classification for distinguishing translated English from non-translated English."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl",
+  "huggingface-hub",
+  "joblib",
+  "matplotlib",
+  "numpy",
+  "openpyxl",
+  "pandas",
+  "scikit-learn",
+  "seaborn",
+  "sentence-transformers",
+  "shap",
+  "spacy",
+  "torch",
+  "tqdm",
+  "xgboost",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8,<9",
+]
+
+[project.scripts]
+xai-style = "xai_for_stylistic_analysis.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["xai_for_stylistic_analysis*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+  "integration: smoke tests against repository data and serialized artifacts",
+]
+filterwarnings = [
+  "ignore:Trying to unpickle estimator .*",
+]

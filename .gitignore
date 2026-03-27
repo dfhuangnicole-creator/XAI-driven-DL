@@ -1,0 +1,32 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local scratch files
+*.tmp
+*.log
+.hf_compare/
+
+# Raw source data stays local
+data/raw/*
+!data/raw/.gitkeep
+
+# The local SBERT model exceeds normal GitHub file-size limits
+assets/models/all-mpnet-base-v2/
+
+# Legacy exports and old release bundles are not part of the main repository contents
+outputs/legacy/*
+!outputs/legacy/.gitkeep
+outputs/releases/*
+
+# Ignore repeated timestamped VAE exports while keeping stable artifacts
+outputs/vae/full_stacking_pipeline_*.pkl
+outputs/vae/stacking_report_20260326_*.txt

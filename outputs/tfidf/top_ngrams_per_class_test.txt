@@ -1,0 +1,28 @@
+
+Label = 1:  (total samples: 85)
+3785 n-grams appear in this class (nonzero sum)
+Top 10 n-grams (by sum of TF-IDF):
+  the: 25.5998
+  and: 19.5970
+  to: 17.2861
+  gpe: 16.0918
+  of: 13.4694
+  in: 9.3359
+  we: 7.2602
+  gpe gpe: 7.0196
+  for: 5.8592
+  that: 4.9915
+
+Label = 2:  (total samples: 95)
+3846 n-grams appear in this class (nonzero sum)
+Top 10 n-grams (by sum of TF-IDF):
+  the: 37.5011
+  and: 24.5774
+  of: 16.4787
+  to: 15.9182
+  gpe: 10.6041
+  in: 10.2223
+  of the: 5.8853
+  on: 4.9913
+  loc: 4.6765
+  for: 4.4717

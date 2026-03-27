@@ -1,0 +1,10 @@
+Logistics Regression Classification Report (Neutralized)
+==================================================
+              precision    recall  f1-score   support
+
+           0       0.73      0.75      0.74        96
+           1       0.71      0.69      0.70        84
+
+    accuracy                           0.72       180
+   macro avg       0.72      0.72      0.72       180
+weighted avg       0.72      0.72      0.72       180
