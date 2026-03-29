@@ -21,9 +21,9 @@ Can a model tell translated English apart from non-translated English?
 
 To explore that question, the project does three things:
 
-1. turns each text into sentence embeddings
-2. learns a latent representation with a VAE
-3. runs classification and simple XAI analysis on top of those features
+1. train a VAE with sentence embedding of translated and non-translated texts
+2. classify the latent space vectors using three classifiers' majority vote based on stacked ensemble
+3. conduct perturbation XAI
 
 Besides the main VAE-based pipeline, the repository also keeps a TF-IDF baseline and a logistic regression baseline for comparison.
 
