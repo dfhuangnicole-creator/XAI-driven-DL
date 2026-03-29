@@ -1,4 +1,4 @@
-<h1 align="center">XAI for Stylistic Analysis</h1>
+<h1 align="center"> Perturbation-based DL XAI for Stylistic Analysis</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12-blue.svg" alt="Python">
