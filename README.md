@@ -29,9 +29,9 @@ Representative visual outputs already stored in the repository are shown below.
 | :---------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
 | <img src="outputs/vae/confusion_matrix.png" alt="Classification confusion matrix" width="420"/> | <img src="outputs/vae/lda_distribution.png" alt="Latent-space LDA distribution" width="420"/> |
 
-|                               VAE Training Curve                                |                                       Latent Feature Importance                                        |
+|                               VAE Training Curve                                |                                                                            |
 | :-----------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
-| <img src="outputs/vae/vae_loss.png" alt="VAE training loss curve" width="420"/> | <img src="outputs/vae/mu_importance_ranking.png" alt="Latent feature importance ranking" width="420"/> |
+| <img src="outputs/vae/vae_loss.png" alt="VAE training loss curve" width="420"/> |
 
 ## Experimental Results
 
