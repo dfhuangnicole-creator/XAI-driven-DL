@@ -185,7 +185,6 @@ uv run xai-style vae-vote
 uv run xai-style vae-final
 uv run xai-style vae-plot
 uv run xai-style vae-perturb
-uv run xai-style vae-importance
 ```
 
 Run the baseline workflows:
